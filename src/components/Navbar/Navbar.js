@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, LogoContainer, Menu, MenuItem, MenuItemLink, Wrapper } from './Navbar.elements';
+import { Container, LogoContainer, Menu, MenuItem, MenuItemLink,  Wrapper } from './Navbar.elements';
 import { FaDog } from "react-icons/fa";
+import  CartWidget  from "./CartWidget";
 
 
 const Navbar = () => {
@@ -30,10 +31,14 @@ const Navbar = () => {
                         Contacto
                     </MenuItemLink>
                 </MenuItem>
+                <CartWidget />
+                
+                
             </Menu>
 
         </Wrapper>
     </Container>
+
   )
 };
 

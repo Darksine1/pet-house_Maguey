@@ -17,16 +17,18 @@ export const Wrapper = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: sans-serif;
+    color: white;
 
     p{
         &:nth-child(2) {
             color: #fff;
         }
+
     }
 `;
 
